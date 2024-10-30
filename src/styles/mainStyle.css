@@ -1,0 +1,13 @@
+.art{
+    color: #fff;
+    background-color: #0D0000;
+}
+img{
+    width: 50%;
+    display:block;
+    margin:auto;
+}
+body{
+
+    background-image: url("/src/imgs/backgorund-body.jpg");
+}
