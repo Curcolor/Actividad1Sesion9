@@ -1,38 +1,45 @@
 /* Estilo de headear generico para cada página*/
 header {
-    background-color: #0D0000;
+  background-color: #0d0000;
 }
 
 .Titulo_Incial {
-    color: #fff;
-    font-size: 50px;
-    padding-top: 25px;
-    text-align: center;
+  color: #fff;
+  font-size: 50px;
+  padding-top: 25px;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+#Titulo_bloodborne {
+    width: 50%;
+    display:block;
+    margin:auto;
 }
 
 /* Barra de navegación generica para cada página*/
 .menu {
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #731414;
-    }
+  font-family: "Times New Roman", sans-serif;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #731414;
+  }
 
-    li {
-        float: left;
-    }
+  li {
+    float: left;
+  }
 
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
 
-    li a:hover {
-        background-color: #590E0E;
-    }
+  li a:hover {
+    background-color: #590e0e;
+  }
 }
